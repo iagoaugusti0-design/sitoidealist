@@ -95,7 +95,7 @@ export default function Hero() {
             {[...Array(5)].map((_, i) => (
               <Star key={i} className="w-3.5 h-3.5 text-yellow-400 fill-yellow-400" />
             ))}
-            <span className="ml-1">4.9/5 valutazione media</span>
+            <span className="ml-1">4.7/5 valutazione media</span>
           </div>
           <div className="flex items-center gap-2">
             <Users className="w-4 h-4 text-[#5A54FF] flex-shrink-0" />

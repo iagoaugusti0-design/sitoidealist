@@ -5,11 +5,11 @@ import { Star, Quote } from 'lucide-react'
 
 const testimonials = [
   {
-    name: 'Marco Rossi',
+    name: 'Tommaso Russo',
     role: 'Avvocato',
     company: 'Studio Legale Rossi & Associati',
     text: 'Avevo bisogno di un sito urgente per una conferenza imminente. In 24 ore avevo un sito professionale che ha stupito tutti i partecipanti. Qualità eccellente, tempi rispettati al minuto. Consiglio vivamente.',
-    avatar: 'MR',
+    avatar: 'TR',
     rating: 5,
   },
   {
@@ -62,7 +62,7 @@ export default function Testimonials() {
             {[...Array(5)].map((_, i) => (
               <Star key={i} className="w-5 h-5 text-yellow-400 fill-yellow-400" />
             ))}
-            <span className="ml-2 text-white/50 text-sm">4.9/5 · 200+ recensioni</span>
+            <span className="ml-2 text-white/50 text-sm">4.7/5 · 200+ recensioni</span>
           </div>
         </motion.div>
 

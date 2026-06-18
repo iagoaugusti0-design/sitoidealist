@@ -157,7 +157,7 @@ function ContactForm() {
       </button>
 
       <p className="text-center text-white/30 text-xs pt-1">
-        Risposta garantita entro 2 ore lavorative · Nessun impegno
+        Risposta garantita entro 24 ore lavorative · Nessun impegno
       </p>
     </form>
   )
@@ -208,7 +208,7 @@ export default function FinalCTA() {
             {/* Trust points */}
             <div className="space-y-4">
               {[
-                { icon: Clock, text: 'Risposta entro 2 ore lavorative' },
+                { icon: Clock, text: 'Risposta entro 24 ore lavorative' },
                 { icon: Shield, text: 'Preventivo gratuito e senza impegno' },
                 { icon: CheckCircle, text: 'Pagamento solo dopo la tua approvazione' },
               ].map(({ icon: Icon, text }) => (
