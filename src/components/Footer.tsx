@@ -40,7 +40,7 @@ export default function Footer() {
                 className="flex items-center gap-2.5 text-white/40 hover:text-white text-sm transition-colors group"
               >
                 <Mail className="w-4 h-4 text-[#5A54FF] group-hover:text-[#7977FF] transition-colors" />
-                info@sitoidealist.it
+                sitoidealist@gmail.com
               </a>
               <a
                 href="https://wa.me/3512529115?text=Ciao!%20Vorrei%20un%20preventivo."

@@ -71,7 +71,7 @@ const structuredData = {
   description:
     'Realizziamo siti web professionali in 24 ore. Design moderno, responsive e ottimizzato per la conversione.',
   url: 'https://sitoidealist.it',
-  email: 'info@sitoidealist.it',
+  email: 'sitoidealist@gmail.com',
   telephone: '+39-000-000-0000',
   priceRange: '€€',
   address: {
