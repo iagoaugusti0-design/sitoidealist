@@ -113,7 +113,7 @@ function ContactForm() {
               Starter — 248€
             </option>
             <option value="premium" className="bg-[#0B1A38]">
-              Premium — 458€
+              Premium — 498€
             </option>
             <option value="business" className="bg-[#0B1A38]">
               Business — 998€

@@ -8,8 +8,8 @@ const plans = [
     name: 'Starter',
     price: '248',
     description: 'Ideale per freelance e professionisti.',
-    badge: 'Più scelto',
-    featured: true,
+    badge: null,
+    featured: false,
     cta: 'Inizia con Starter',
     features: [
       'Landing page professionale',
@@ -22,10 +22,10 @@ const plans = [
   },
   {
     name: 'Premium',
-    price: '458',
+    price: '498',
     description: 'Perfetto per piccole aziende.',
-    badge: null,
-    featured: false,
+    badge: 'Più scelto',
+    featured: true,
     cta: 'Scegli Premium',
     features: [
       'Fino a 5 pagine',

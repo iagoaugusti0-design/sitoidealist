@@ -92,7 +92,7 @@ const structuredData = {
       {
         '@type': 'Offer',
         name: 'Piano Premium',
-        price: '458',
+        price: '498',
         priceCurrency: 'EUR',
         description: 'Sito fino a 5 pagine con design personalizzato',
       },
