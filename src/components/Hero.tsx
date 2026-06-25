@@ -58,8 +58,6 @@ export default function Hero() {
           className="text-lg md:text-xl text-white/60 max-w-2xl mx-auto leading-relaxed mb-10"
         >
           Ricevi un sito web moderno, veloce e ottimizzato per acquisire nuovi clienti.
-          <br className="hidden sm:block" />
-          Consegna garantita in sole 24 ore.
         </motion.p>
 
         {/* CTA buttons */}
@@ -154,21 +152,6 @@ export default function Hero() {
               </div>
             </div>
           </div>
-
-          {/* Floating success badge */}
-          <motion.div
-            animate={{ y: [0, -8, 0] }}
-            transition={{ duration: 3.5, repeat: Infinity, ease: 'easeInOut' }}
-            className="absolute -bottom-5 -right-3 md:-right-8 bg-white rounded-2xl px-4 py-3 shadow-2xl flex items-center gap-3"
-          >
-            <div className="w-9 h-9 bg-green-50 rounded-xl flex items-center justify-center flex-shrink-0">
-              <CheckCircle className="w-5 h-5 text-green-500" />
-            </div>
-            <div>
-              <div className="text-xs font-bold text-gray-900 whitespace-nowrap">Sito consegnato!</div>
-              <div className="text-xs text-gray-400">24 ore dopo</div>
-            </div>
-          </motion.div>
 
           {/* Floating time badge */}
           <motion.div
