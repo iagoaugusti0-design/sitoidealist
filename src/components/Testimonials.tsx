@@ -39,8 +39,8 @@ export default function Testimonials() {
       className="relative py-24 md:py-32 overflow-hidden"
       style={{ backgroundColor: '#050F24' }}
     >
-      <div className="absolute top-0 right-0 w-[450px] h-[450px] bg-[#5A54FF]/[0.05] rounded-full blur-[80px] pointer-events-none" />
-      <div className="absolute bottom-0 left-0 w-[350px] h-[350px] bg-[#5A54FF]/[0.04] rounded-full blur-[70px] pointer-events-none" />
+      <div className="absolute top-0 right-0 w-[250px] h-[250px] bg-[#5A54FF]/[0.05] rounded-full blur-[50px] pointer-events-none" />
+      <div className="absolute bottom-0 left-0 w-[200px] h-[200px] bg-[#5A54FF]/[0.04] rounded-full blur-[40px] pointer-events-none" />
 
       <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Header */}
@@ -71,11 +71,10 @@ export default function Testimonials() {
           {testimonials.map((t, index) => (
             <motion.div
               key={t.name}
-              initial={{ opacity: 0, y: 32 }}
+              initial={{ opacity: 0, y: 24 }}
               whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true }}
-              transition={{ duration: 0.5, delay: index * 0.1 }}
-              whileHover={{ y: -4, transition: { duration: 0.2 } }}
+              viewport={{ once: true, margin: '-60px' }}
+              transition={{ duration: 0.4, delay: index * 0.08 }}
               className="relative flex flex-col p-7 rounded-2xl bg-white/[0.035] border border-white/[0.08] hover:border-white/[0.15] transition-all duration-300"
             >
               {/* Quote mark */}

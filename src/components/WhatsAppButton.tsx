@@ -19,11 +19,9 @@ export default function WhatsAppButton() {
         target="_blank"
         rel="noopener noreferrer"
         aria-label="Contattaci su WhatsApp"
-        className="relative flex items-center justify-center w-14 h-14 bg-green-500 hover:bg-green-600 rounded-full shadow-2xl shadow-green-500/40 hover:shadow-green-500/60 transition-all duration-200 hover:scale-110"
+        className="flex items-center justify-center w-14 h-14 bg-green-500 hover:bg-green-600 rounded-full shadow-2xl shadow-green-500/40 transition-colors duration-200"
       >
-        {/* Pulse ring */}
-        <span className="absolute inset-0 rounded-full bg-green-500 animate-ping opacity-25" />
-        <MessageCircle className="w-6 h-6 text-white fill-white relative z-10" />
+        <MessageCircle className="w-6 h-6 text-white fill-white" />
       </a>
     </motion.div>
   )

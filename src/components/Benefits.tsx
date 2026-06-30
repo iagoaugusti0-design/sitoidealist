@@ -46,7 +46,7 @@ export default function Benefits() {
   return (
     <section id="benefici" className="relative py-24 md:py-32 bg-[#07152F] overflow-hidden">
       {/* Subtle center glow */}
-      <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[700px] h-[350px] bg-[#5A54FF]/[0.06] rounded-full blur-[100px] pointer-events-none" />
+      <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[400px] h-[200px] bg-[#5A54FF]/[0.06] rounded-full blur-[60px] pointer-events-none" />
 
       <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Header */}
@@ -75,11 +75,10 @@ export default function Benefits() {
             return (
               <motion.div
                 key={item.title}
-                initial={{ opacity: 0, y: 32 }}
+                initial={{ opacity: 0, y: 24 }}
                 whileInView={{ opacity: 1, y: 0 }}
-                viewport={{ once: true }}
-                transition={{ duration: 0.5, delay: index * 0.07 }}
-                whileHover={{ y: -5, transition: { duration: 0.2 } }}
+                viewport={{ once: true, margin: '-60px' }}
+                transition={{ duration: 0.4, delay: index * 0.05 }}
                 className="group relative p-6 md:p-7 rounded-2xl bg-white/[0.035] border border-white/[0.08] hover:border-[#5A54FF]/40 hover:bg-white/[0.06] transition-all duration-300 cursor-default"
               >
                 {/* Corner gradient on hover */}

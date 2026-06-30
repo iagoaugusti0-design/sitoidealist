@@ -13,9 +13,8 @@ export default function Hero() {
   return (
     <section className="relative min-h-screen flex flex-col items-center justify-center overflow-hidden bg-[#07152F] pt-20">
       {/* Gradient blobs */}
-      <div className="absolute top-[-120px] right-[-80px] w-[700px] h-[700px] rounded-full bg-[#5A54FF] opacity-[0.13] blur-[130px] pointer-events-none" />
-      <div className="absolute bottom-[-100px] left-[-120px] w-[500px] h-[500px] rounded-full bg-[#5A54FF] opacity-[0.07] blur-[100px] pointer-events-none" />
-      <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[300px] h-[300px] rounded-full bg-[#5A54FF] opacity-[0.04] blur-[60px] pointer-events-none" />
+      <div className="absolute top-[-120px] right-[-80px] w-[400px] h-[400px] sm:w-[700px] sm:h-[700px] rounded-full bg-[#5A54FF] opacity-[0.10] blur-[80px] sm:blur-[130px] pointer-events-none" />
+      <div className="absolute bottom-[-100px] left-[-120px] w-[300px] h-[300px] sm:w-[500px] sm:h-[500px] rounded-full bg-[#5A54FF] opacity-[0.06] blur-[60px] sm:blur-[100px] pointer-events-none" />
 
       {/* Grid pattern */}
       <div
@@ -33,10 +32,7 @@ export default function Hero() {
           <div className="inline-flex items-center gap-2.5 px-4 py-2 rounded-full bg-white/[0.07] backdrop-blur-sm border border-white/[0.12] text-sm font-medium">
             <Clock className="w-4 h-4 text-[#5A54FF]" />
             <span className="text-white/85">Consegna garantita in 24h</span>
-            <span className="relative flex h-2 w-2">
-              <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-green-400 opacity-60" />
-              <span className="relative inline-flex rounded-full h-2 w-2 bg-green-400" />
-            </span>
+            <span className="inline-flex rounded-full h-2 w-2 bg-green-400" />
           </div>
         </motion.div>
 
@@ -154,14 +150,10 @@ export default function Hero() {
           </div>
 
           {/* Floating time badge */}
-          <motion.div
-            animate={{ y: [0, 6, 0] }}
-            transition={{ duration: 4, repeat: Infinity, ease: 'easeInOut', delay: 1 }}
-            className="absolute -top-5 -left-3 md:-left-8 bg-[#5A54FF] rounded-2xl px-4 py-3 shadow-2xl shadow-[#5A54FF]/30 flex items-center gap-2"
-          >
+          <div className="absolute -top-5 -left-3 md:-left-8 bg-[#5A54FF] rounded-2xl px-4 py-3 shadow-2xl shadow-[#5A54FF]/30 flex items-center gap-2">
             <Clock className="w-4 h-4 text-white/80" />
             <div className="text-xs font-bold text-white whitespace-nowrap">⚡ 24h garantite</div>
-          </motion.div>
+          </div>
         </motion.div>
       </div>
 
